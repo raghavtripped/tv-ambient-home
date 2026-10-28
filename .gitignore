@@ -1,0 +1,26 @@
+tools/venv/
+tools/adbkey/
+__pycache__/
+launcher/.gradle/
+launcher/build/
+launcher/app/build/
+launcher/local.properties
+# your own TV's dumps (serial, android_id, device names) stay local
+backup/
+# session screenshots and working notes (may show the Wi-Fi name or account avatar) stay local
+shots/
+work/
+.DS_Store
+
+# Generated install bundles and JVM crash reports stay out of contributions.
+*.apk
+*.aab
+launcher/hs_err_pid*.log
+launcher/replay_pid*.log
+
+# Add-on builds and local machine files
+addons/*/.gradle/
+addons/*/build/
+addons/*/app/build/
+addons/*/local.properties
+CLAUDE.local.md
