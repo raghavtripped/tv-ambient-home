@@ -94,6 +94,16 @@ tools/tv.py "am start -n $P/.AmbiActivity"              # wait until the strip l
 tools/tv.py "settings put secure location_mode 0"
 ```
 
+**If someone clears the add-on's data** (Settings → Apps → Ambient light → Clear data), Android also drops
+the grants above and the saved strip address. Without location the scan then finds nothing, and the log
+repeats "scanning for LEDDMX*" with "strip waiting". Run the grants again and hand it the address
+(`LEDDMX-03-0224` advertises the last two bytes of it) instead of scanning:
+
+```bash
+tools/tv.py "am start -n $P/.AmbiActivity --es address AA:BB:CC:DD:EE:FF"
+tools/tv.py "am start -n $P/.AmbiActivity --ez off true; sleep 3; am start -n $P/.AmbiActivity"   # restart so it hears the sound again
+```
+
 Or skip the scan by giving it the address yourself:
 `am start -n $P/.AmbiActivity --es address AA:BB:CC:DD:EE:FF`.
 
