@@ -12,6 +12,9 @@ no root, nothing flashed, nothing uninstalled, and a one-line restore.
 > trims it down to one TV and adds my own work on top. See [`CREDITS.md`](CREDITS.md) for who did what,
 > and please support the original.
 
+**Status:** on hold since 5 November 2026, everything working. What's done, what's open and how to pick it up
+again: [`docs/STATUS.md`](docs/STATUS.md).
+
 ## What's in it
 
 | Part | What it does |

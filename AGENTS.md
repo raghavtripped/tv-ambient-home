@@ -54,7 +54,7 @@ The person's backups (`backup/`), screenshots (`shots/`), notes (`work/`) and th
 | `README.md` | Front page: what's in it, the TV, set-up, undo, lessons learnt. |
 | `CREDITS.md` | The original project, its contributors, and what this project adds. |
 | `examples/` | `examples/xiaomi-mitv-moor2/debloat.txt`, the list applied to this TV. Indexed in `examples/README.md`. |
-| `docs/` | `docs/TROUBLESHOOTING.md`, `docs/REMOTE.md`, `docs/modules.md` and `docs/specs/card.md` (module cards), `docs/app-library.md`, `docs/sky.md`, `docs/watch-next.md`. |
+| `docs/` | `docs/STATUS.md` (where the project stands, how to resume), `docs/TROUBLESHOOTING.md`, `docs/REMOTE.md`, `docs/modules.md` and `docs/specs/card.md` (module cards), `docs/app-library.md`, `docs/sky.md`, `docs/watch-next.md`. |
 | `launcher/` | The launcher, package `com.gathin.tvhome` (kept so it installs over the existing one): plain Java, AndroidX RecyclerView and DynamicAnimation, `minSdk` 26, no `INTERNET` permission. |
 | `themes/` | `default` and `aurora`: `config.json`, `screenshot.jpg`, optional wallpaper. Keys in `themes/README.md`. |
 | `addons/` | `ambilight`, `weather`, `phoneremote`: module-card apps, each its own Gradle project. Indexed in `addons/README.md`. |
