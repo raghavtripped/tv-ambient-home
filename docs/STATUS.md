@@ -1,8 +1,8 @@
 # Project status
 
 **On hold since 5 November 2026.** Everything below is working on the TV, committed and pushed. Nothing is
-half-done in the code. ADB debugging on the TV is switched off, so picking this up again starts with
-[Resuming](#resuming).
+half-done in the code. ADB debugging is switched off on the TV with the remote as the last step (step 5 of
+[Resuming](#resuming)), so picking this up again starts by switching it back on.
 
 TV: Xiaomi MiTV-MOOR2, Google TV / Android 11, firmware RTM5.220609.003.2674.
 
